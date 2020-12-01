@@ -1,0 +1,134 @@
+.body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Indie Flower", cursive;
+}
+h1:hover {
+  color: white;
+}
+.menu {
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+.nav:hover {
+  color: white;
+  float: left;
+  text-align: center;
+  padding: 14px;
+}
+.header {
+  font-family: "Henny Penny", cursive;
+  font-size: 20px;
+  display: grid;
+  text-align: center;
+  background-color: blue;
+  color: black;
+  margin-bottom: auto;
+  border-width: thick;
+  border-style: solid;
+  border-color: black;
+  padding: 20px;
+}
+.card-container {
+  background-color: rgb(8, 149, 236);
+  display: flex;
+  flex-direction: column;
+}
+.jcard {
+  float: left;
+  width: 75%;
+}
+.jamaica {
+  padding: 20px;
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+}
+.jwords {
+  color: rgb(5, 5, 24);
+  font: bold;
+}
+
+.bcard {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+.bahamas {
+  padding: 20px;
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+  float: left;
+}
+
+.dominican {
+  padding: 20px;
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+  float: right;
+}
+
+.vegas {
+  padding: 20px;
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.footer {
+  font-size: 20px;
+  display: grid;
+  text-align: center;
+  background-color: blue;
+  color: black;
+  margin-bottom: auto;
+  border-width: thick;
+  border-style: solid;
+  border-color: black;
+  padding: 20px;
+}
+
+.shawna {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  height: 100px;
+  width: auto;
+  border-radius: 50%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.linkedin {
+  height: 20px;
+  width: auto;
+}
+
+.github {
+  height: 20px;
+  width: auto;
+}
+@media only screen and (min-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .jamaica {
+    padding: 20px;
+    margin-right: auto;
+    float: ;
+  }
+}
